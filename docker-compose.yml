@@ -1,8 +1,7 @@
-# storage-layer/docker-compose.yml
 version: '3.9'
 services:
   postgres:
-    image: postgres:14
+    image: postgres:16
     container_name: postgres
     ports:
       - "5433:5432"
